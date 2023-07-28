@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- saved from url=(0038)https://youdu.im/android_power_custom/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+    <title>开启自启动权限方法</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        body{
+            padding:0 15px;
+            color: #000;
+            font-size: 14px;
+            background: #FFF;
+            font-family: Helvetica;
+        }
+        li{
+            list-style: none;
+        }
+        .title{
+            font-size:16px;
+            padding: 15px 0;
+            margin-bottom: 15px;
+            font-weight: bolder;
+            position: relative;
+        }
+        .title:after{
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #cad6e8;
+            height: 1px;
+            -webkit-transform-origin: left bottom;
+            -webkit-transform: scaleY(.5);
+            transform: scaleY(.5);
+        }
+        a{
+            color: #5199e2;
+        }
+        .box{
+            width: 90%;
+            margin: 22px auto 0;
+        }
+        .text-center{
+            text-align: center;
+        }
+        img{
+            margin:15px auto 22px;
+        }
+        .content{
+            font-size: 14px;
+            color: #2b333f;
+        }
+        .content p {
+            margin: 15px 0;
+        }
+        .content ul li{
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+   <p class="title"><span class="getname">应用</span>开启自启动权限方法</p>
+    <div class="content">
+        <p><span class="getname">应用</span>获得自启动权限后，才能正常接收通知消息功能，请前往手机【设置】中开启权限。</p>
+        <p>权限开启步骤：<br> 进入手机中的【设置】-&gt;【应用】-&gt; 找到【<span class="getname">应用</span>】并进入 -&gt;【权限管理】-&gt; 【自启动】允许即可。</p>
+        <ul>
+           <li><a href="./huawei/index.html">点击这里查看【华为手机】设置方法</a></li>
+           <li><a href="./xiaomi/index.html">点击这里查看【小米手机】设置方法</a></li>
+           <li><a href="./meizu/index.html">点击这里查看【魅族手机】设置方法</a></li>
+           <li><a href="./samsung/index.html">点击这里查看【三星手机】设置方法</a></li>
+           <li><a href="./vivo/index.html">点击这里查看【VIVO手机】设置方法</a></li>
+           <li><a href="./oppo/index.html">点击这里查看【OPPO手机】设置方法</a></li>
+       </ul>
+       <p>注：由于各手机系统差异，请根据手机实际路径操作。</p>
+    </div>
+
+    <script>
+        window.onload = function(){
+            var name = getName("name") || "应用";
+            var span = document.getElementsByClassName("getname");
+            for(var i=0;i<span.length;i++){
+                span[i].innerHTML = name;
+            }
+        }
+        //获取url参数
+        function getName(name){
+            var url = window.location.search;
+            var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+            var result = url.substr(1).match(reg);
+            return result ? decodeURIComponent(result[2]) : null;
+        }
+    </script>
+<audio controls="controls" style="display: none;"></audio></body><style type="text/css">#yddContainer{display:block;font-family:Microsoft YaHei;position:relative;width:100%;height:100%;top:-4px;left:-4px;font-size:12px;border:1px solid}#yddTop{display:block;height:22px}#yddTopBorderlr{display:block;position:static;height:17px;padding:2px 28px;line-height:17px;font-size:12px;color:#5079bb;font-weight:bold;border-style:none solid;border-width:1px}#yddTopBorderlr .ydd-sp{position:absolute;top:2px;height:0;overflow:hidden}.ydd-icon{left:5px;width:17px;padding:0px 0px 0px 0px;padding-top:17px;background-position:-16px -44px}.ydd-close{right:5px;width:16px;padding-top:16px;background-position:left -44px}#yddKeyTitle{float:left;text-decoration:none}#yddMiddle{display:block;margin-bottom:10px}.ydd-tabs{display:block;margin:5px 0;padding:0 5px;height:18px;border-bottom:1px solid}.ydd-tab{display:block;float:left;height:18px;margin:0 5px -1px 0;padding:0 4px;line-height:18px;border:1px solid;border-bottom:none}.ydd-trans-container{display:block;line-height:160%}.ydd-trans-container a{text-decoration:none;}#yddBottom{position:absolute;bottom:0;left:0;width:100%;height:22px;line-height:22px;overflow:hidden;background-position:left -22px}.ydd-padding010{padding:0 10px}#yddWrapper{color:#252525;z-index:10001;background:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ab20.png);}#yddContainer{background:#fff;border-color:#4b7598}#yddTopBorderlr{border-color:#f0f8fc}#yddWrapper .ydd-sp{background-image:url(chrome-extension://eopjamdnofihpioajgfdikhhbobonhbb/ydd-sprite.png)}#yddWrapper a,#yddWrapper a:hover,#yddWrapper a:visited{color:#50799b}#yddWrapper .ydd-tabs{color:#959595}.ydd-tabs,.ydd-tab{background:#fff;border-color:#d5e7f3}#yddBottom{color:#363636}#yddWrapper{min-width:250px;max-width:400px;}</style></html>

@@ -1,0 +1,25 @@
+.title {
+	color: #0082f0;
+	text-align: center;
+}
+
+.c_title{
+	color: #0082f0;
+}
+
+.list {
+	color: #333333;
+}
+
+.img_show {
+	width: 80%;
+}
+
+.aliCenter {
+	text-align: center;
+}
+
+body>div {
+	line-height: 180%;
+	letter-spacing: 2px;
+}
