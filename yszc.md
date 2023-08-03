@@ -45,8 +45,8 @@
 使用场景：每次应用启动开屏时  
 共享方式：SDK本机采集，不涉及数据共享  
 第三方名称：北京巨量引擎网络技术有限公司  
-收集/共享信息：网络访问，获取WIFI状态，读取电话状态，设备标识信息（包括设备序列号、Mac地址、Android ID、IMSI、IMEI、传感器信息）  
-信息类型：操作系统信息、设备型号信息、应用列表信息  
+收集/共享信息：应用包名、运行中的进程信息、版本号、应用前后台状态、软件列表信息、运营商信息、设备时区、sim卡信息、网络访问，获取WIFI状态，读取电话状态，设备标识符（如IMEI、IMSI、ICCID、GAID（仅GMS服务）、MEID、设备序列号build_serial）传感器信息  
+信息类型：设备品牌、型号、软件系统版本、分辨率、网络信号强度、IP地址、设备语言等基础信息、软件列表信息 
 隐私政策：https://www.pangle.cn/privacy  
 
 （3）Bugly SDK:
@@ -55,7 +55,7 @@
 使用场景：应用发生错误或崩溃时  
 共享方式：SDK本机采集，不涉及数据共享  
 第三方名称：腾讯公司  
-收集/共享信息：网络访问，获取WIFI状态，读取电话状态，设备标识信息（包括设备序列号、Mac地址、Android ID、IMSI、IMEI、传感器信息）  
+收集/共享信息：日志信息（包括：Logcat 日志以及 APP 崩溃堆栈信息）、设备 ID（包括：androidid 以及idfv）、联网信息、系统名称、系统版本以及国家码。  
 信息类型：操作系统信息、设备型号信息、崩溃堆栈日志信息  
 隐私政策：https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf  
 
@@ -64,7 +64,7 @@
 使用场景：用户启动、进入页面时  
 共享方式：SDK本机采集，不涉及数据共享  
 第三方名称：友盟公司  
-收集/共享信息：设备信息（IMEI/Mac/android ID/SIM卡IMSI）  
+收集/共享信息：设备信息及粗略位置:IMEI/MAC/Android ID/IDFA/OpenUDID/GUID/SIM卡IMSI/ICCID/IP
 信息类型：操作系统信息、设备型号信息、页面跳转信息  
 隐私政策：https://www.umeng.com/page/policy  
 
