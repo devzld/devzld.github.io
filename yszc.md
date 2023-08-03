@@ -60,13 +60,13 @@
 隐私政策：https://static.bugly.qq.com/bugly-sdk-privacy-statement.pdf  
 
 （4）友盟+SDK
-使用目的：统计用户使用情况
-使用场景：用户启动、进入页面时
-共享方式：SDK本机采集，不涉及数据共享
-第三方名称：友盟公司
-收集/共享信息：设备信息（IMEI/Mac/android ID/SIM卡IMSI）
-信息类型：操作系统信息、设备型号信息、页面跳转信息
-隐私政策：https://www.umeng.com/page/policy
+使用目的：统计用户使用情况  
+使用场景：用户启动、进入页面时  
+共享方式：SDK本机采集，不涉及数据共享  
+第三方名称：友盟公司  
+收集/共享信息：设备信息（IMEI/Mac/android ID/SIM卡IMSI）  
+信息类型：操作系统信息、设备型号信息、页面跳转信息  
+隐私政策：https://www.umeng.com/page/policy  
 
 对我们与之共享用户信息的公司、组织和个人，我们会与其签署严格的保密协定，要求他们按照我们的说明、本隐私政策以及其他任何相关的保密和安全措施来处理用户信息。
 
