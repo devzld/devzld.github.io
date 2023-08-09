@@ -5,25 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>聚合通知 - 应用下载</title>
-    <!-- Add your CSS stylesheets and other meta tags here if needed -->
+    <style>
+        body {
+            background-color: #f5f5f5;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #00BFFF;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .app-download {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .app-download img {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        a {
+            color: #00BFFF;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            
+            color: #333;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>聚合通知</h1>
     </header>
-
     <main>
         <section class="app-download">
-            <h2>应用下载</h2>
+            
+            <div>
+                <img src="./img/1.png" alt="App 1">
+                <img src="./img/2.png" alt="App 2">
+                <img src="./img/3.png" alt="App 3">
+                <img src="./img/4.png" alt="App 4">
+            </div>
+        </section>
+		<h2>应用下载</h2>
             <p>您可以通过以下链接下载我们的应用：</p>
             <p>
-                <a href="https://hcbztch.com" target="_blank">点击此处下载</a>
+                <a href="https://github.com/devzld/devzld.github.io/releases/download/2.0.0.03/notice20003_jiagu_sign.apk" target="_blank">点击此处下载</a>
             </p>
-        </section>
     </main>
-
     <footer>
-        <!-- Add your footer content here -->
         <p>&copy; 2023 聚合通知. All rights reserved.</p>
     </footer>
 </body>
